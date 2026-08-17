@@ -5,9 +5,10 @@
 This is the boiler for any of my Python projects. This includes most of the good practices I use for having a clean, well-maintained and sharable code. Feel free to use this template for any of your future or existing projects! 🚀
 
 ## Use
-When creating the package, run 
+When creating the package, update the name of the project in the `pyproject.toml` then run 
 ```bash
-pre-commit install   // to install the pre-commit hooks
+uv sync
+uv run pre-commit install   // to install the pre-commit hooks
 ```
 
 The main entry point for your code is `main.py` . Feel free to add any other entry points as you wish.
